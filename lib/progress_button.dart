@@ -216,6 +216,7 @@ class _ProgressButtonState extends State<ProgressButton>
             duration: widget.animationDuration,
             child: MaterialButton(
               padding: widget.padding,
+              elevation: 0,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(widget.radius),
                   side: BorderSide(color: Colors.transparent, width: 0)),
